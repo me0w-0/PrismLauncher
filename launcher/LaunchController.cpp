@@ -125,7 +125,7 @@ LaunchDecision LaunchController::decideLaunchMode()
         }
     }
 
-    const auto accounts = APPLICATION->accounts();
+    
     MinecraftAccountPtr accountToCheck = nullptr;
 
     if (m_accountToUse->accountType() == AccountType::Offline) {
